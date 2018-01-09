@@ -10,7 +10,7 @@ import { StoreState } from './types/index';
 
 const store = createStore<StoreState>(enthusiasm, {
   enthusiasmLevel: 1,
-  languageName: 'TypeScript',
+  languageName: 'Webpack',
 });
 
 ReactDOM.render(
